@@ -42,7 +42,7 @@ const Hero = () => {
     }, 100)
 
     return () => clearInterval(typingInterval)
-  }, [currentRoleIndex, hasMounted])
+  }, [currentRoleIndex, hasMounted , roles])
 
   const scrollToNext = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })
