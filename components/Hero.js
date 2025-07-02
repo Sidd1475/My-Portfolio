@@ -4,12 +4,14 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin, FaEnvelope, FaChevronDown } from 'react-icons/fa'
 
+
+const roles = ["Web Developer", "Creative Problem Solver", "Tech Explorer"]
 const Hero = () => {
   const [displayText, setDisplayText] = useState("")
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0)
   const [hasMounted, setHasMounted] = useState(false)
 
-  const roles = ["Web Developer", "Creative Problem Solver", "Tech Explorer"]
+  
 
   useEffect(() => {
     setHasMounted(true) // Ensure dynamic rendering happens on client only
@@ -34,7 +36,7 @@ const Hero = () => {
               currentIndex--
             } else {
               clearInterval(deletingInterval)
-              setCurrentRoleIndex((prev) => (prev + 1) % roles.length)
+              setCurrentRoleIndex((prev) => (prev + 1)%roles.length)
             }
           }, 50)
         }, 2000)
