@@ -25,7 +25,7 @@ const About = () => {
           About Me
         </h2>
         <p className=' flex text-lg text-gray-600 mb-6 justify-center text-center mx-auto  max-w-2xl' data-aos="fade-up" data-aos-delay="100" >
-          I'm a passionate developer currently pursuing B.Tech CSE, who enjoys building beautiful and functional web experiences that solve real-world problems.
+          I&apos;m a passionate developer currently pursuing B.Tech CSE, who enjoys building beautiful and functional web experiences that solve real-world problems.
         </p>
 
 
@@ -34,7 +34,7 @@ const About = () => {
           <div className='flex flex-col px-10 '>
             <h3 className='text-2xl font-semibold mb-4 mt-6 '>🎓 My Journey</h3>
             <p className=' text-gray-600  mx-4'>
-              I'm a curious student who enjoys solving problems with code. I love experimenting with modern technologies and frameworks, whether for hackathons, freelance work, or personal projects.
+              I&apos;m a curious student who enjoys solving problems with code. I love experimenting with modern technologies and frameworks, whether for hackathons, freelance work, or personal projects.
             </p>
 
             <h3 className="text-2xl font-semibold mb-4 mt-6 ">📚 Education</h3>

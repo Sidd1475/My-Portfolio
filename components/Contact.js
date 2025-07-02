@@ -19,10 +19,10 @@ const Contact = () => {
     <section id='contact'>
         <div className='justify-center bg-blue-50   p-10 '>
            <h2 className='text-4xl font-bold text-center'>
-        Let's Work Together
+        Let&apos;s Work Together
        </h2>
        <p className='m-8 text-2xl text-gray-600 max-w-xl mx-auto'>
-          Have a project in mind? I'd love to hear about it. Let's create something amazing together.
+          Have a project in mind? I&apos;d love to hear about it. Let&apos;s create something amazing together.
        </p>
        <div className=" max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-15 items-start ">
        {/* Left: Form */}
@@ -54,7 +54,7 @@ const Contact = () => {
         {/* Right: Info */}
         <div className=" p-6 rounded-xl">
           <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
-          <p className="text-gray-600 mb-8">I'm always open to discussing new opportunities, creative projects, or potential collaborations. Reach out via any channel below:</p>
+          <p className="text-gray-600 mb-8">I&apos;m always open to discussing new opportunities, creative projects, or potential collaborations. Reach out via any channel below:</p>
 
           <div className="space-y-6">
             <ContactInfo icon={<FaEnvelope />} label="Email" value="siddharth140705@gmail.com" />
@@ -63,7 +63,7 @@ const Contact = () => {
 
           <div className="mt-10 p-4 bg-purple-50 rounded-md text-gray-700">
             <h4 className="font-semibold mb-2">Available for Freelance</h4>
-            <p>I'm currently open to freelance work & collaborations. Let’s bring your ideas to life!</p>
+            <p>I&apos;m currently open to freelance work & collaborations. Let’s bring your ideas to life!</p>
           </div>
         </div>
        
