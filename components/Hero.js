@@ -63,13 +63,13 @@ const Hero = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-5xl md:text-6xl font-extrabold -mt-40"
+        className="text-5xl text-white md:text-6xl font-extrabold -mt-40"
       >
         Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-600">Siddharth</span>
       </motion.h1>
 
       <div className="h-16 mb-8 mt-6">
-        <p className="text-2xl md:text-3xl font-bold text-gray-600">
+        <p className="text-2xl md:text-3xl font-bold text-gray-300">
           I&apos;m a{" "}
           {hasMounted && (
             <span className="font-semibold text-purple-600 min-w-fit inline-block">

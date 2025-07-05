@@ -1,7 +1,35 @@
 "use client"
 
 import React from 'react'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import {FaExternalLinkAlt } from 'react-icons/fa'
+import {
+  FaCode,
+  FaServer,
+  FaBrain,
+  FaTools,
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaJava,
+  FaPython,
+  FaGit,
+  FaGithub,
+  FaFigma,
+  FaNodeJs,
+} from "react-icons/fa";
+import { VscCode } from "react-icons/vsc";
+
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiMongodb,
+  SiExpress,
+  SiCplusplus,
+  SiVercel,
+  SiPostman,
+  SiVisualstudio,
+  SiJavascript,
+} from "react-icons/si";
 
 import { useState } from 'react'
 const Projects = () => {
@@ -10,7 +38,7 @@ const Projects = () => {
     const projects = [{
         title: "Mitra - Your Farming Companion",
         description: "Mitra is an AI-powered farming companion designed to help farmers access real-time market prices, crop insights, and smart alerts. Built during a hackathon using AI tools (Cursor and Lovable), it aims to revolutionize agriculture through intelligent, farmer-friendly solutions",
-        image: "image.png",
+        image: "https://imgs.search.brave.com/XoXIqxKiOo3i7_y3mgVqKOSwokRtDMhzDgcz12QcAg0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTAz/MTYwNzIyL3Bob3Rv/L2Zhcm1lci1zcHJl/YWRzLWZlcnRpbGl6/ZXJzLWluLXRoZS1m/aWVsZC13aGVhdC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/SDYxNkptd1RYa1Y4/TFZzaXJpTXlxeDJN/OVdfTFVIYk13S2lI/RXNlaHotRT0",
         technologies: ["React.js", "Node.js", "MongoDB"],
         github: "https://github.com",
         live: "https://mitra-amber.vercel.app/",
@@ -19,7 +47,7 @@ const Projects = () => {
     {
         title: "GetMeaChai",
         description: "A creator support platform where fans can donate small amounts to their favorite content creators along with personalized messages. Built with a focus on simplicity, seamless payments, and a beautiful UI to help creators connect with their audience.",
-        image: "image2.png",
+        image: "/getmeachai.webp",
         technologies: ["Next.js", "React.js", "Node.js", "MongoDB", "PayPal", "Express"],
         github: "https://github.com",
         live: "https://mitra-amber.vercel.app/",
@@ -29,7 +57,7 @@ const Projects = () => {
     {
         title: "PassOP - Your Password Manager",
         description: "A secure and intuitive password manager where users can store, edit, and delete passwords with ease. It comes in two versions — one using localStorage for offline use and another powered by MongoDB for cloud-based storage.",
-        image: "image3.webp",
+        image: "https://imgs.search.brave.com/lrczgupmn2Zrre2AP5Dwryg0LhNJ2oDfvcbBz8pO9KQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI5/OTQ1NTEyOS92ZWN0/b3IvcGFzc3dvcmQt/bWFuYWdlci10aGVt/ZS13aXRoLXBhZGxv/Y2staW4tc2hpZWxk/LWFuZC1jeXBoZXIt/aW4tZGVza3RvcC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/cEdyeDV3SWNCcEh1/N216RUg3cS1zYVJG/STBIcHlZWTJNTFNh/enJFWjZrUT0",
         technologies: ["React", "Node.js", "MongoDB", "Express"],
         github: "https://github.com",
         live: "https://mitra-amber.vercel.app/",
@@ -38,7 +66,7 @@ const Projects = () => {
         , {
         title: "Suno - Music Player",
         description: "Suno is a responsive music player web app featuring curated albums and smooth playback controls, designed for an immersive listening experience. Built with a clean UI and modern frontend tech, it offers seamless navigation across devices.",
-        image: "image4.png",
+        image: "/image1.png",
         technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com",
         live: "https://mitra-amber.vercel.app/",
@@ -49,7 +77,7 @@ const Projects = () => {
     {
         title: "Sukoon - Your Mental Health Companion",
         description: "Sukoon is a mental health platform where users can connect with a supportive community, share experiences, and access helpful resources. Built during a hackathon using powerful AI tools, it aims to promote well-being through technology-driven care.",
-        image: "image5.webp",
+        image: "image.png",
         technologies: ["React", "Node.js", "MongoDB", "Express"],
         github: "https://github.com",
         live: "https://mitra-amber.vercel.app/",
@@ -59,7 +87,7 @@ const Projects = () => {
     {
         title: "Netflix - UI Clone",
         description: "Sukoon is a mental health platform where users can connect with a supportive community, share experiences, and access helpful resources. Built during a hackathon using powerful AI tools, it aims to promote well-being through technology-driven care.",
-        image: "image6.webp",
+        image: "https://imgs.search.brave.com/6x7hi32TTO5eeVfEuFaSEBE0ghPt79MC07NPEfHR88M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGFz/dGljLnVpNGZyZWUu/Y29tL3B1YmxpYy9p/bWFnZXMvbmV0Zmxp/eC1sYW5kaW5nLXBh/Z2UtdWktY2xvbmUt/ZmlnbWEtdGVtcGxh/dGVfMTYzMDQ4OTE0/MV90aHVtYi5qcGc",
         technologies: ["HTML", "CSS"],
         github: "https://github.com",
         live: "https://mitra-amber.vercel.app/",
@@ -79,14 +107,14 @@ const Projects = () => {
 
             
 
-            <div className="">
+            <div className="text-gray-100">
                 
     
-                <h2 className='font-bold text-4xl text-center m-10'>
+                <h2 className='font-bold text-4xl text-center m-10 text-white drop-shadow-lg'>
 
                     My Projects
                 </h2>
-                <p className='text-xl text-center items-center text-gray-600 max-w-xl mx-auto'>
+                <p className='text-xl text-center items-center text-gray-200 max-w-xl mx-auto drop-shadow-lg'>
                     Here are some of my recent projects that showcase my skills and passion for creating amazing user experiences.
                 </p>
 
@@ -94,7 +122,7 @@ const Projects = () => {
 
 
 
-            <div className='grid grid-cols-1  lg:grid-cols-2 gap-10 place-items-center'>
+            <div className='grid grid-cols-1 text-gray-100  lg:grid-cols-2 gap-10 place-items-center'>
                 {projectsToShow.map((project, index) => (
 
                     <div
@@ -102,8 +130,8 @@ const Projects = () => {
                     >
 
 
-                        <div className="items-center relative group rounded-2xl overflow-hidden shadow-lg transition duration-300 hover:shadow-2xl bg-white max-w-xl m-10 ">
-                            <div className='relative h-48 overflow-hidden'>
+                        <div className="items-center  relative group rounded-2xl overflow-hidden shadow-lg transition duration-300 hover:shadow-2xl max-w-xl m-10 ">
+                            <div className='relative text-gray-200 h-48 overflow-hidden'>
                                 <img
                                     src={project.image}
                                     alt={project.title} />
@@ -115,7 +143,7 @@ const Projects = () => {
 
 
                                 {/* Actions on hover*/}
-                                <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition duration-300   ">
+                                <div className="absolute inset-0 flex items-center text-gray-200 justify-center gap-4 opacity-0 group-hover:opacity-100 transition duration-300   ">
                                     <a
                                         href={project.github}
                                         target="_blank"
@@ -139,7 +167,7 @@ const Projects = () => {
                                 {/* Project content */}
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-blue-600">{project.title}</h3>
-                                    <p className="text-gray-600 mt-2 text-sm">
+                                    <p className="text-gray-300 mt-2 text-sm">
                                         {project.description}
                                     </p>
 
@@ -165,7 +193,7 @@ const Projects = () => {
 
             {/* Show More/Show Less Button */}
             {hasMoreProjects && (
-                <div className="text-center mt-10">
+                <div className="text-center mt-10 drop-shadow-lg">
                     <button
                         onClick={() => setShowAllProjects(!showAllProjects)}
                         className="text-gray-800 bg-gradient-to-r from-blue-500 to-violet-500 font-semibold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg m-10"

@@ -17,30 +17,30 @@ const ContactInfo = ({ icon, label, value }) => (
 const Contact = () => {
   return (
     <section id='contact'>
-        <div className='justify-center bg-blue-50   p-10 '>
+        <div className='justify-cente text-white relative z-10  p-10 '>
            <h2 className='text-4xl font-bold text-center'>
         Let&apos;s Work Together
        </h2>
-       <p className='m-8 text-2xl text-gray-600 max-w-xl mx-auto'>
+       <p className='m-8 text-2xl text-gray-200 max-w-xl mx-auto'>
           Have a project in mind? I&apos;d love to hear about it. Let&apos;s create something amazing together.
        </p>
        <div className=" max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-15 items-start ">
        {/* Left: Form */}
-        <div className='bg-white p-8 rounded-xl shadow-2xl'>
+        <div className='bg-[#1a1a2e] p-8 rounded-xl shadow-2xl'>
           <h2 className="text-3xl font-bold mb-6">Send a Message</h2>
           <form className="space-y-6" action="https://formsubmit.co/siddharth140705@gmail.com" method="POST">
             <div>
-              <label className="block mb-1 text-sm font-medium text-gray-700">Your Name</label>
+              <label className="block mb-1 text-sm font-medium text-gray-300">Your Name</label>
               <input type="text" className="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="Your Name" />
             </div>
 
             <div>
-              <label className="block mb-1 text-sm font-medium text-gray-700">Email Address</label>
+              <label className="block mb-1 text-sm font-medium text-gray-300">Email Address</label>
               <input type="email" className="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400" placeholder="Your Email Id" />
             </div>
 
             <div>
-              <label className="block mb-1 text-sm font-medium text-gray-700">Message</label>
+              <label className="block mb-1 text-sm font-medium text-gray-300">Message</label>
               <textarea className="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400" rows="4" placeholder="Tell me about your project..."></textarea>
             </div>
 
