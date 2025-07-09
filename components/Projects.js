@@ -60,7 +60,7 @@ const Projects = () => {
         title: "PassOP - Your Password Manager",
         description: "A secure and intuitive password manager where users can store, edit, and delete passwords with ease. It comes in two versions — one using localStorage for offline use and another powered by MongoDB for cloud-based storage.",
          status: "Completed"   ,
-        image: "https://github-production-user-asset-6210df.s3.amazonaws.com/167200325/447590175-b41bde50-8929-4d2d-92ea-4ed28dcf24c2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250709%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250709T153707Z&X-Amz-Expires=300&X-Amz-Signature=9d8eca68213ed8a585cdad6c613f498c26182f2d3ca51739322763ce76a135f2&X-Amz-SignedHeaders=host",
+        image: "passop.webp",
         technologies: ["React", "Node.js", "MongoDB", "Express"],
         github: "https://github.com/Sidd1475/PassOP",
         live: "https://pass-op-steel.vercel.app/",
