@@ -1,34 +1,34 @@
 "use client"
 
 import React from 'react'
-import {FaExternalLinkAlt } from 'react-icons/fa'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 import {
-  FaCode,
-  FaServer,
-  FaBrain,
-  FaTools,
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaJava,
-  FaPython,
-  FaGit,
-  FaGithub,
-  FaFigma,
-  FaNodeJs,
+    FaCode,
+    FaServer,
+    FaBrain,
+    FaTools,
+    FaHtml5,
+    FaCss3Alt,
+    FaReact,
+    FaJava,
+    FaPython,
+    FaGit,
+    FaGithub,
+    FaFigma,
+    FaNodeJs,
 } from "react-icons/fa";
 import { VscCode } from "react-icons/vsc";
 
 import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiMongodb,
-  SiExpress,
-  SiCplusplus,
-  SiVercel,
-  SiPostman,
-  SiVisualstudio,
-  SiJavascript,
+    SiTailwindcss,
+    SiNextdotjs,
+    SiMongodb,
+    SiExpress,
+    SiCplusplus,
+    SiVercel,
+    SiPostman,
+    SiVisualstudio,
+    SiJavascript,
 } from "react-icons/si";
 
 import { useState } from 'react'
@@ -38,6 +38,7 @@ const Projects = () => {
     const projects = [{
         title: "Mitra - Your Farming Companion",
         description: "Mitra is an AI-powered farming companion designed to help farmers access real-time market prices, crop insights, and smart alerts. Built during a hackathon using AI tools (Cursor and Lovable), it aims to revolutionize agriculture through intelligent, farmer-friendly solutions",
+        status: "Completed"   ,
         image: "https://imgs.search.brave.com/XoXIqxKiOo3i7_y3mgVqKOSwokRtDMhzDgcz12QcAg0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTAz/MTYwNzIyL3Bob3Rv/L2Zhcm1lci1zcHJl/YWRzLWZlcnRpbGl6/ZXJzLWluLXRoZS1m/aWVsZC13aGVhdC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/SDYxNkptd1RYa1Y4/TFZzaXJpTXlxeDJN/OVdfTFVIYk13S2lI/RXNlaHotRT0",
         technologies: ["React.js", "Node.js", "MongoDB"],
         github: "https://github.com",
@@ -47,29 +48,32 @@ const Projects = () => {
     {
         title: "GetMeaChai",
         description: "A creator support platform where fans can donate small amounts to their favorite content creators along with personalized messages. Built with a focus on simplicity, seamless payments, and a beautiful UI to help creators connect with their audience.",
+         status: "Ongoing"   ,
         image: "/getmeachai.webp",
         technologies: ["Next.js", "React.js", "Node.js", "MongoDB", "PayPal", "Express"],
-        github: "https://github.com",
-        live: "https://mitra-amber.vercel.app/",
+        github: "https://github.com/Sidd1475/GetMeaChai",
+        live: "/",
         gradient: "from-blue-500 to-purple-600"
     }
         ,
     {
         title: "PassOP - Your Password Manager",
         description: "A secure and intuitive password manager where users can store, edit, and delete passwords with ease. It comes in two versions — one using localStorage for offline use and another powered by MongoDB for cloud-based storage.",
-        image: "https://imgs.search.brave.com/lrczgupmn2Zrre2AP5Dwryg0LhNJ2oDfvcbBz8pO9KQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI5/OTQ1NTEyOS92ZWN0/b3IvcGFzc3dvcmQt/bWFuYWdlci10aGVt/ZS13aXRoLXBhZGxv/Y2staW4tc2hpZWxk/LWFuZC1jeXBoZXIt/aW4tZGVza3RvcC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/cEdyeDV3SWNCcEh1/N216RUg3cS1zYVJG/STBIcHlZWTJNTFNh/enJFWjZrUT0",
+         status: "Completed"   ,
+        image: "https://github-production-user-asset-6210df.s3.amazonaws.com/167200325/447590175-b41bde50-8929-4d2d-92ea-4ed28dcf24c2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250709%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250709T153707Z&X-Amz-Expires=300&X-Amz-Signature=9d8eca68213ed8a585cdad6c613f498c26182f2d3ca51739322763ce76a135f2&X-Amz-SignedHeaders=host",
         technologies: ["React", "Node.js", "MongoDB", "Express"],
-        github: "https://github.com",
-        live: "https://mitra-amber.vercel.app/",
+        github: "https://github.com/Sidd1475/PassOP",
+        live: "https://pass-op-steel.vercel.app/",
         gradient: "from-white to-green-600"
     }
         , {
         title: "Suno - Music Player",
         description: "Suno is a responsive music player web app featuring curated albums and smooth playback controls, designed for an immersive listening experience. Built with a clean UI and modern frontend tech, it offers seamless navigation across devices.",
+         status: "Completed"   ,
         image: "/image1.png",
         technologies: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com",
-        live: "https://mitra-amber.vercel.app/",
+        github: "https://github.com/Sidd1475/Suno-MusicPlayer",
+        live: "/",
         gradient: "from-blue-500 to-purple-600"
     }
 
@@ -77,39 +81,31 @@ const Projects = () => {
     {
         title: "Sukoon - Your Mental Health Companion",
         description: "Sukoon is a mental health platform where users can connect with a supportive community, share experiences, and access helpful resources. Built during a hackathon using powerful AI tools, it aims to promote well-being through technology-driven care.",
+         status: "Completed"   ,
         image: "image.png",
         technologies: ["React", "Node.js", "MongoDB", "Express"],
         github: "https://github.com",
-        live: "https://mitra-amber.vercel.app/",
+        live: "https://sukoon-ai.vercel.app/",
         gradient: "from-orange-100 to-pink-400"
     }
-        ,
-    {
-        title: "Netflix - UI Clone",
-        description: "Sukoon is a mental health platform where users can connect with a supportive community, share experiences, and access helpful resources. Built during a hackathon using powerful AI tools, it aims to promote well-being through technology-driven care.",
-        image: "https://imgs.search.brave.com/6x7hi32TTO5eeVfEuFaSEBE0ghPt79MC07NPEfHR88M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGFz/dGljLnVpNGZyZWUu/Y29tL3B1YmxpYy9p/bWFnZXMvbmV0Zmxp/eC1sYW5kaW5nLXBh/Z2UtdWktY2xvbmUt/ZmlnbWEtdGVtcGxh/dGVfMTYzMDQ4OTE0/MV90aHVtYi5qcGc",
-        technologies: ["HTML", "CSS"],
-        github: "https://github.com",
-        live: "https://mitra-amber.vercel.app/",
-        gradient: "from-red-500 to-pink-100"
-    }
+
     ]
 
     // Show only first 2 projects initially, all when showAllProjects is true
-    const projectsToShow = showAllProjects ? projects : projects.slice(0, 4)
+    const projectsToShow = showAllProjects ? projects : projects.slice(0,4 )
     const hasMoreProjects = projects.length > 4
 
     return (
-       
+
         <section id='projects'>
 
 
 
-            
+
 
             <div className="text-gray-100">
-                
-    
+
+
                 <h2 className='font-bold text-4xl text-center m-10 text-white drop-shadow-lg'>
 
                     My Projects
@@ -132,6 +128,10 @@ const Projects = () => {
 
                         <div className="items-center  relative group rounded-2xl overflow-hidden shadow-lg transition duration-300 hover:shadow-2xl max-w-xl m-10 ">
                             <div className='relative text-gray-200 h-48 overflow-hidden'>
+                                <span className={`absolute top-3 right-3 text-xs font-semibold px-2 py-1 rounded-full ${project.status === "Completed" ? "bg-green-500 text-white " : "bg-yellow-100 text-yellow-800"
+                                    }`}>
+                                    {project.status}
+                                </span>
                                 <img
                                     src={project.image}
                                     alt={project.title} />
@@ -176,7 +176,7 @@ const Projects = () => {
                                         {project.technologies.map((tag) => (
                                             <span
                                                 key={tag}
-                                                className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-600"
+                                                className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-900"
                                             >
                                                 {tag}
                                             </span>
@@ -205,7 +205,7 @@ const Projects = () => {
 
 
         </section>
-        
+
     )
 }
 

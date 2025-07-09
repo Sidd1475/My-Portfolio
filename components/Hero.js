@@ -74,7 +74,7 @@ const Hero = () => {
 
       {/* Subheading */}
       <motion.p
-        className="mt-4 max-w-xl text-gray-600"
+        className="mt-4 max-w-xl text-gray-300"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.7 }}
@@ -92,7 +92,7 @@ const Hero = () => {
 
       {/* Socials */}
       <motion.div
-        className="mt-5 flex gap-10 text-3xl text-gray-600"
+        className="mt-5 flex gap-10 text-4xl text-gray-300"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.1 }}

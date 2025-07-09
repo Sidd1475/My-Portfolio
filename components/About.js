@@ -40,9 +40,11 @@ const About = () => {
           </p>
 
           <div className="flex gap-4 mt-4" data-aos="fade-up" data-aos-delay="200">
-            <button className="bg-purple-600 px-5 py-2 rounded-full text-white hover:bg-purple-700 transition">
+            <a href="#contact">
+            <button  className="bg-purple-600 px-5 py-2 rounded-full text-white hover:bg-purple-700 transition">
               Get in Touch
             </button>
+            </a>
             <button className="border border-purple-500 px-5 py-2 rounded-full text-white hover:bg-purple-600 transition">
               Download CV
             </button>

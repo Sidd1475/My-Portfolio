@@ -21,7 +21,7 @@ const Contact = () => {
            <h2 className='text-4xl font-bold text-center'>
         Let&apos;s Work Together
        </h2>
-       <p className='m-8 text-2xl text-gray-200 max-w-xl mx-auto'>
+       <p className='m-8 text-2xl text-gray-200 max-w-2xl mx-auto text-center'>
           Have a project in mind? I&apos;d love to hear about it. Let&apos;s create something amazing together.
        </p>
        <div className=" max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-15 items-start ">
@@ -54,9 +54,9 @@ const Contact = () => {
         {/* Right: Info */}
         <div className=" p-6 rounded-xl">
           <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
-          <p className="text-gray-600 mb-8">I&apos;m always open to discussing new opportunities, creative projects, or potential collaborations. Reach out via any channel below:</p>
+          <p className="text-gray-300 mb-8">I&apos;m always open to discussing new opportunities, creative projects, or potential collaborations. Reach out via any channel below:</p>
 
-          <div className="space-y-6">
+          <div className="space-y-6 text-gray-300">
             <ContactInfo icon={<FaEnvelope />} label="Email" value="siddharth140705@gmail.com" />
             <ContactInfo icon={<FaMapMarkerAlt />} label="Location" value="New Delhi , India" />
           </div>

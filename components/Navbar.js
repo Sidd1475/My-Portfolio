@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="text-purple-600 font-extrabold text-xl">Portfolio</div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 font-medium text-gray-700">
+        <ul className="hidden md:flex space-x-6 font-medium text-gray-300">
           <li><a href="#home" className="hover:text-purple-600">Home</a></li>
           <li><a href="#about" className="hover:text-purple-600">About</a></li>
           <li><a href="#skills" className="hover:text-purple-600">Skills</a></li>
@@ -53,8 +53,8 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <ul className="md:hidden bg-white/30 backdrop-blur-md shadow-md px-4 pb-4 space-y-2 font-medium text-gray-700">
-          <li><a href="#home" className="block py-2 hover:text-purple-600" onClick={handleToggle}>Home</a></li>
+        <ul className="md:hidden   shadow-md px-4 pb-4 space-y-2 font-medium text-gray-300">
+          <li><a href="#home" className="block py-2 hover:text-purple-600 " onClick={handleToggle}>Home</a></li>
           <li><a href="#about" className="block py-2 hover:text-purple-600" onClick={handleToggle}>About</a></li>
           <li><a href="#skills" className="block py-2 hover:text-purple-600" onClick={handleToggle}>Skills</a></li>
           <li><a href="#projects" className="block py-2 hover:text-purple-600" onClick={handleToggle}>Projects</a></li>

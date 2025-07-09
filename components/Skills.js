@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, easeInOut } from "framer-motion";
 
 import {
   FaCode,
@@ -129,6 +129,7 @@ export default function Skills() {
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
+                  transition={{duration:0.2 , ease: "easeInOut"}}
                   className="mt-3 bg-white/90 backdrop-blur-md rounded-lg shadow-inner p-4 text-sm text-gray-800 border border-gray-200"
                 >
                   <ul className="grid grid-cols-3 gap-4">
